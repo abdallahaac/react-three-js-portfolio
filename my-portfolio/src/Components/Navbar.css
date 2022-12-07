@@ -1,0 +1,35 @@
+* {
+	background-color: rgb(21, 21, 21);
+}
+
+/* @media (width<900px) {
+	.navbar {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: row;
+		background-color: rgb(21, 21, 21);
+	}
+
+	.contact-information {
+		display: flex;
+		flex-direction: row;
+	}
+
+} */
+
+@media (width>900px) {
+	.navbar {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-direction: row;
+		background-color: rgb(21, 21, 21);
+		color: white;
+	}
+
+	.contact-information {
+		display: flex;
+		flex-direction: row;
+	}
+}
