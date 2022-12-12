@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-
+import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 function Navbar() {
 	const [isPortfolioHovered, setPortfolioHovered] = useState(false);
@@ -15,13 +15,10 @@ function Navbar() {
 	return (
 		<div class="nav-container">
 			<nav class="nav-item name">
-				<h1>
-					<a href="index.html" class="underline" id="name">
-						Abdallah Abou-Chahine
-					</a>
-				</h1>
+				<Link to={"/"}>
+					<h1 className="name underline ">Abdallah Abou-Chahine</h1>
+				</Link>
 			</nav>
-
 			<nav class="nav-item info portoflio">
 				<h2
 					onMouseEnter={() => {
@@ -43,21 +40,15 @@ function Navbar() {
 						setPortfolioHovered(false);
 					}}
 				>
-					<li>
-						<a href="/" className="underline">
-							Art
-						</a>
-					</li>
-					<li>
-						<a href="/" className="underline">
-							Art
-						</a>
-					</li>
-					<li>
-						<a href="/" className="underline ">
-							Art
-						</a>
-					</li>
+					<Link to={"/technical-projects"} className="underline links">
+						Technical Projects
+					</Link>
+					<Link to={"/graphic-design"} className="underline links">
+						Graphic Design
+					</Link>
+					<Link to={"/art"} className="underline links">
+						Art
+					</Link>
 				</div>
 			</nav>
 			<nav class="nav-item info">
