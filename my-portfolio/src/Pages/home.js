@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
+import Art from "./Art";
 import GraphicDesign from "./GraphicDesign";
 import TechnicalProjects from "./TechnicalProjects";
 
@@ -8,6 +8,7 @@ export default function Home() {
 		<div className="home">
 			<TechnicalProjects />
 			<GraphicDesign />
+			<Art />
 		</div>
 	);
 }
