@@ -72,52 +72,6 @@ function Navbar() {
 			</nav>
 
 			{/* <!-- burger menu only displays on mobile --> */}
-
-			<nav class="nav-item burger">
-				<img
-					class="burger-bar"
-					id="burger-bar-img"
-					src="/assets/burger-bar.svg"
-					alt="s"
-				/>
-			</nav>
-			<nav class="nav-item burger">
-				<img
-					class="burger-bar closed"
-					id="burger-bar-closed-img"
-					src="/assets/closed-burger.svg"
-					alt="s"
-				/>
-			</nav>
-
-			<nav class="burger-nav" id="expanded-burger-nav">
-				<div class="burger-nav-link-container tech">
-					<a class="burger-nav-link tech" href="/technical-projects.html">
-						Technical Projects
-					</a>
-				</div>
-				<div class="burger-nav-link-container design">
-					<a class="burger-nav-link design" href="/graphic-design.html">
-						Graphic Design
-					</a>
-				</div>
-				<div class="burger-nav-link-container art">
-					<a class="burger-nav-link art" href="/art.html">
-						Art
-					</a>
-				</div>
-				{/* <!-- <div class="burger-nav-link-container blog">
-                            <a class="burger-nav-link blog" href="/blog.html">Blogs</a>
-                        </div> --> */}
-				<div class="burger-nav-link-container blog">
-					<a
-						class="burger-nav-link blog"
-						href="mailto:abdallahabouchahine@cmail.carleton.ca"
-					>
-						Contact me
-					</a>
-				</div>
-			</nav>
 		</div>
 	);
 }

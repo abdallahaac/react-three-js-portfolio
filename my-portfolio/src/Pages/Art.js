@@ -5,7 +5,46 @@ export default function Art() {
 		<>
 			{/* <!-- beginning of graphic design section --> */}
 			<section class="art-post-container">
-				{/* <!-- end of graphic design section --> */}
+				<div className="art-post">
+					<img
+						class="art-post-img"
+						src="https://i.ibb.co/9G9r078/pareidolia.jpg"
+						alt=""
+						srcset=""
+					/>
+				</div>
+				<div className="art-post">
+					<img
+						class="art-post-img"
+						src="https://i.ibb.co/fS2Rwwc/A-clock-butterfly-a-birch-tree.jpg"
+						alt=""
+						srcset=""
+					/>
+				</div>
+				<div className="art-post">
+					<img
+						class="art-post-img"
+						src="https://i.ibb.co/SQHQjGj/acrylic-mirror.jpg"
+						alt=""
+						srcset=""
+					/>
+				</div>
+				<div className="art-post">
+					<img
+						class="art-post-img"
+						src="https://i.ibb.co/3WnPwBQ/burning-bush.jpg"
+						alt=""
+						srcset=""
+					/>
+				</div>
+				<div className="art-post">
+					<img
+						class="art-post-img"
+						src="https://i.ibb.co/Lg9W3bZ/self-portrait.jpg"
+						alt=""
+						srcset=""
+					/>
+				</div>
 			</section>
 		</>
 	);
