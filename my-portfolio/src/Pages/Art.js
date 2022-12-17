@@ -1,9 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/art.css";
 export default function Art() {
 	return (
 		<>
 			{/* <!-- beginning of graphic design section --> */}
+
+			<section className="art-header-container">
+				<h1 className="art-title  underline">
+					<Link to={"/art"}>Art</Link>
+				</h1>
+			</section>
 			<section class="art-post-container">
 				<div className="art-post">
 					<img

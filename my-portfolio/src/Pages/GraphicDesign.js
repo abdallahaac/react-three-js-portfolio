@@ -1,9 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "../styles/graphic-design.css";
 const GraphicDesign = () => {
 	return (
-		<>
+		<div className="graphic-body">
+			<section className="graphic-header-container">
+				<h1 className=" graphic-title underline">
+					<Link to={"/graphic-design"}>Graphic Design</Link>
+				</h1>
+			</section>
 			{/* <!-- beginning of graphic design section --> */}
 			<section class="graphic-post-container">
 				<div class="graphic-image-container">
@@ -89,7 +95,7 @@ const GraphicDesign = () => {
 				</div>
 				{/* <!-- end of graphic design section --> */}
 			</section>
-		</>
+		</div>
 	);
 };
 

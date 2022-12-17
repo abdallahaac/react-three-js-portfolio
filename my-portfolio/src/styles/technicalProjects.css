@@ -26,21 +26,46 @@
 	.project > img,
 	.project > video,
 	.project > iframe {
+		display: flex;
 		width: 300px;
-		height: 300px;
+		height: fit-content;
 		object-fit: scale-down;
 	}
-	.project > iframe {
-		width: 330px;
+
+	.technical-title > a {
+		font-size: 28px;
+		color: #fff;
+	}
+	.technical-header-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.technical-header-container {
+		display: flex;
+		margin: 30px;
+		transform: translateY(70px);
 	}
 }
 @media (width>900px) {
+	.technical-title {
+		font-size: 28px;
+	}
+	.technical-header-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.technical-header-container {
+		display: flex;
+		margin: 20px;
+		transform: translateY(90px);
+	}
 	.technical-projects-main {
 		display: flex;
 		height: 100%;
 		flex-direction: column;
 		justify-content: space-between;
-
 		align-items: center;
 		transform: translateY(100px);
 	}
@@ -51,7 +76,7 @@
 		height: 300px;
 		border-radius: 6px;
 		width: 100%;
-		max-width: 40%;
+		max-width: 69%;
 		margin: 10px;
 		padding: 200px;
 		justify-content: center;
@@ -64,6 +89,7 @@
 		transform: translateY(-230px);
 		color: white;
 	}
+
 	iframe,
 	video,
 	img {
