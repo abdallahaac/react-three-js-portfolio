@@ -139,7 +139,7 @@ function Navbar() {
 							<Link to={"/art"}>Art</Link>
 						</li>
 						<li>
-							<a href="mailto:aceydesignz@gmail.com">Contact Mee</a>
+							<a href="mailto:aceydesignz@gmail.com">Contact Me</a>
 						</li>
 					</div>
 				</>
