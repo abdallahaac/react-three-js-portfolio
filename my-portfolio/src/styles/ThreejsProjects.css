@@ -1,0 +1,19 @@
+@media (width>900px) {
+	.project-body {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		transform: translateY(100px);
+	}
+}
+
+@media (width<900px) {
+	.project-body {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		transform: translateY(100px);
+	}
+}

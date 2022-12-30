@@ -52,6 +52,9 @@ function Navbar() {
 						<Link to={"/art"} className="underline links">
 							Art
 						</Link>
+						<Link to={"/three-js-projects"} className="underline links">
+							Three Js Projects
+						</Link>
 					</div>
 				</nav>
 				<nav class="nav-item info">
@@ -137,6 +140,9 @@ function Navbar() {
 						</li>
 						<li>
 							<Link to={"/art"}>Art</Link>
+						</li>
+						<li>
+							<Link to={"/three-js-projects"}>Three Js Projects</Link>
 						</li>
 						<li>
 							<a href="mailto:aceydesignz@gmail.com">Contact Me</a>

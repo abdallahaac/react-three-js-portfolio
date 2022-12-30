@@ -1,10 +1,14 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "./Components/App";
+import { createRoot } from "react-dom/client";
+import React, { useRef, useState } from "react";
+import { Canvas, useFrame } from "@react-three/fiber";
 
 // import DropdownMenu from "./Components/DropdownMenu";
 import "./styles/index.css";
+import ThreeJsProject from "./Pages/threeJsProjects";
+import ProjectOne from "./Components/ThreeJsProjects/ProjectOne";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

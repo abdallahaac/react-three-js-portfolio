@@ -4,6 +4,7 @@ import Art from "./Art";
 import GraphicDesign from "./GraphicDesign";
 import TechnicalProjects from "./TechnicalProjects";
 import "../styles/home.css";
+import ThreeJsProjects from "./threeJsProjects";
 
 export default function Home() {
 	return (
