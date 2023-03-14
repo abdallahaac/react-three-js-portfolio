@@ -4,7 +4,7 @@ import GraphicDesign from "../Pages/GraphicDesign";
 import ThreeJsProject from "../Pages/threeJsProjects";
 
 import Art from "../Pages/Art";
-import Home from "../Pages/Home";
+import Home from "../Pages/home";
 
 import TechnicalProjects from "../Pages/TechnicalProjects";
 

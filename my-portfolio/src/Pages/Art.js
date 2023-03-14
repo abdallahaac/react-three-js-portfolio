@@ -20,8 +20,10 @@ export default function Art() {
 						srcset=""
 					/>
 				</div>
+
 				<div className="art-post">
 					<img
+						id="clock"
 						class="art-post-img"
 						src="https://i.ibb.co/fS2Rwwc/A-clock-butterfly-a-birch-tree.jpg"
 						alt=""
@@ -31,11 +33,21 @@ export default function Art() {
 				<div className="art-post">
 					<img
 						class="art-post-img"
+						src="https://i.ibb.co/9gmQ8Nj/drawing.jpg"
+						alt=""
+						srcset=""
+					/>
+				</div>
+
+				<div className="art-post">
+					<img
+						class="art-post-img"
 						src="https://i.ibb.co/SQHQjGj/acrylic-mirror.jpg"
 						alt=""
 						srcset=""
 					/>
 				</div>
+
 				<div className="art-post">
 					<img
 						class="art-post-img"
